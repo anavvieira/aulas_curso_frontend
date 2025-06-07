@@ -5,12 +5,13 @@ function maiorValor(){
  
   var maior =matchMedia(a, b, c)
 
-  if(a>b && a>b){
+  /*if(a>b && a>b){
     document.getElementById('demo').innerHTML = a;
   }else if(b>a && b>c){
     document.getElementById('demo').innerHTML = b;
   }else{
     document.getElementById('demo').innerHTML = c;
-  }
+  }*/
+  document.getElementById('demo').innerHTML = (a>b && a>c) ? a : (b>a && a>c) ? b : c;
 
 }
