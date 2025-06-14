@@ -28,6 +28,20 @@ function realizarOperacao(operacao){
     // code block
 }
 
+//Com if, else
+/*if (operacao'soma'){
+  resultado = a + b;
+}else if(operacao == 'subtração'){
+  resultado = a - b;
+}else if(operacao == 'multipblicacao'){
+  resultado = a * b;
+}else if(operacao == 'divisao'){
+  resultado = a / b;
+}else {
+  resultado = a ** b;
+}*/
+
+
  document.getElementById('demo').innerHTML = resultado;
 
 }

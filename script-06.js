@@ -1,7 +1,7 @@
 function usoLoop(){
   let text = "";
-  let i = 0;
-  while (i < 10) {
+  let i = 1;
+  while (i <= 50) {
     text += "<br>O número é " + i;
     i++;
   }
@@ -11,7 +11,7 @@ function usoLoop(){
 function usoFor(){
   let text = "";
    
-  for (let i = 0; i < 10; i++) {
+  for (let i = 9; i > -1; i--) {
     text += "<br>O número é " + i;
   }
  
